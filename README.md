@@ -25,8 +25,8 @@ a lograr:
   *  `#212529`
   *  `#0f9177`    
 *  #### Lugares de donde se extrajo las tipografías y los iconos :  
-  * http://fontawesome.io/icons/  
-  * https://fonts.google.com/
+   *  http://fontawesome.io/icons/  
+   *  https://fonts.google.com/
 
 ***
 ## Lenguajes utilizados :
