@@ -30,7 +30,7 @@
         <img src="assets/images/profile.png" alt="Foto Bootstrap">
       </figure>
       <h1 class="text-uppercase">start bootstrap</h1>
-    <div class="star">
+    <div class="first-star">
       <i class=" fa fa-star fa-2x " ></i>
     </div>
       <p>Web Developer-Graphic Artist-User Expierence Designer</p>
@@ -40,70 +40,114 @@
     <section class="portfolio">
 
       <h2 class="text-uppercase">portfolio</h2>
-      <i class="fa fa-star"></i>
-      <ul>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-      </ul>
+
+      <div class="second-star" >
+        <i class=" fa fa-star fa-2x " ></i>
+      </div>
+
+      <nav class="galery">
+        <ul>
+          <li><a href="#"><img src="assets/images/portfolio/cabin.png" alt=" cabaña"></a></li>
+          <li><a href="#"><img src="assets/images/portfolio/cake.png" alt="porcion de pastel"></a></li>
+          <li><a href="#"><img src="assets/images/portfolio/circus.png" alt="circo"></a></li>
+          <li><a href="#"><img src="assets/images/portfolio/game.png" alt="mando de juego"></a></li>
+          <li><a href="#"><img src="assets/images/portfolio/safe.png" alt="caja fuerte"></a></li>
+          <li><a href="#"><img src="assets/images/portfolio/submarine.png" alt="submarino"></a></li>
+        </ul>
+      </nav>
 
     </section>
 
-    <section>
+    <section class="about">
 
       <h2 class="text-uppercase">about</h2>
-      <p>Free lancer is a free bootstrap theme
-      created by Start Bottstrap. The
-        download includes the complete source
-        files including HTML,CSS and
-        JavaScript as well as optional LESS
-        stylesheets for easy customization.</p>
+      <div class="third-star">
+        <i class=" fa fa-star fa-2x " ></i>
+      </div>
+      <div class="paragraphs">
+        <p class="text">Free lancer is a free bootstrap theme
+        created by Start Bottstrap. The
+          download includes the complete source
+          files including HTML,CSS and
+          JavaScript as well as optional LESS
+          stylesheets for easy customization.</p>
 
-      <p>Whether you´re a student looking to
-        showcase your work, a professional
-        looking to attract clients, or a graphic
-        artist looking to share your projects,this
-        template is the perfect starting point! </p>
+        <p class="text">Whether you´re a student looking to
+          showcase your work, a professional
+          looking to attract clients, or a graphic
+          artist looking to share your projects,this
+          template is the perfect starting point! </p>
+      </div>
 
-        <button type="button" name="Download Theme"></button>
+        <button type="button" name="button" id="button"><i class="fa fa-download"></i>Download Theme</button>
 
     </section>
 
-    <section>
+    <section class="contact-me">
 
       <h2 class="text-uppercase">contact me </h2>
-      <i>icono</i>
 
+      <div class="fourth-star">
+        <i class=" fa fa-star fa-2x " ></i>
+      </div>
+
+       <form class="personal-data" action="index.html" method="post">
+         <ul>
+           <li class="data-item"><label><input type="text" name="" placeholder="Name" required></label></li>
+           <br>
+
+           <li class="data-item"><label><input type="email" name="" placeholder="Email Adress" required></label></li>
+           <br>
+
+           <li class="data-item"><label><input type="tel" name="" placeholder="Phone Number" required></label></li>
+           <br>
+
+           <li class="message-item"><label><textarea name="" rows="8" cols="80" placeholder="Message" required ></textarea></label></li>
+           <br>
+
+           <li class="send"><input type="submit" name="" value="Send"></li>
+         </ul>
+       </form>
 
     </section>
 
-    <footer>
+    <footer class="footer">
 
-      <div class="">
+    <div class="container-information">
+
+      <div class="information">
 
         <h3 class="text-uppercase">location</h3>
         <p>381 Melrose Place
+          <br>
         Beverly Hills, CA 90210</p>
 
       </div>
 
-      <div class="">
+      <div class="information">
 
         <h3 class="text-uppercase">around the web</h3>
+        <ul>
+          <li class="social-item"><i class="fa fa-facebook"></i></li>
+          <li class="social-item"><i class="fa fa-google-plus"></i></li>
+          <li class="social-item"><i class="fa fa-twitter"></i></li>
+          <li class="social-item"><i class="fa fa-linkedin"></i></li>
+          <li class="social-item"><i class="fa fa-dribbble"></i></li>
+        </ul>
 
       </div>
 
-      <div class="">
+      <div class="information">
 
         <h3 class="text-uppercase">about freelancer</h3>
         <p>Freelance is a free to use, open source
-        Bootstrap theme created by <a href="#">Start Bootstrap</a> </p>
+          <br>
+        Bootstrap theme created by <span><a href="#">Start Bootstrap</a></span> </p>
       </div>
 
-      <p>Copyright Your Website 2017</p>
+    </div>
+
+      <p class="license">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Your Website 2017</p>
     </footer>
 
   </body>
